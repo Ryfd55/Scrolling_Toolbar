@@ -47,7 +47,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Which type of pizza would you like?" />
+                android:text="@string/which_type_of_pizza_would_you_like" />
 
             <RadioGroup
                 android:id="@+id/pizza_group"
@@ -58,19 +58,19 @@
                     android:id="@+id/radio_diavolo"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Diavolo" />
+                    android:text="@string/diavolo" />
 
                 <RadioButton
                     android:id="@+id/radio_funghi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Funghi" />
+                    android:text="@string/funghi" />
             </RadioGroup>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Please choose any extras:" />
+                android:text="@string/please_choose_any_extras" />
 
             <com.google.android.material.chip.ChipGroup
                 android:layout_width="wrap_content"
@@ -81,14 +81,14 @@
                     style="@style/Widget.MaterialComponents.Chip.Choice"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Parmesan" />
+                    android:text="@string/parmesan" />
 
                 <com.google.android.material.chip.Chip
                     android:id="@+id/chili_oil"
                     style="@style/Widget.MaterialComponents.Chip.Choice"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Chili oil" />
+                    android:text="@string/chili_oil" />
             </com.google.android.material.chip.ChipGroup>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
